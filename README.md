@@ -113,7 +113,7 @@ Add Function
      * @provider
      * @return void
      */
-    public function ProviderLogout(provider)
+    public function ProviderLogout($provider)
     {
         /* where $provider = 'keycloak' */
         /* logout from laravel auth */
